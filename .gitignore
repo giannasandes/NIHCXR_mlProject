@@ -1,0 +1,29 @@
+#Ignore all files by default
+*
+
+#Track only the scripts you want
+!data_prep.py
+!train_alexnet_refined.py
+!threshold_tuning_refined.py
+!make_alexnet_plots_refined.py
+!compute_additional_metrics.py
+!plot_colored_metrics.py
+
+#Allow basic project files
+!.gitignore
+!README.md
+
+#Ignore junk
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+*.log
+*.npy
+*.pth
+*.csv
+*.png
+*.txt
+*.json
+*.sh
+*.e*
+*.o*
